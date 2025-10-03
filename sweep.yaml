@@ -1,0 +1,13 @@
+name: compression-sweep
+method: grid
+parameters:
+  prune_frac:
+    values: [0.25, 0.30, 0.35, 0.40]
+  w_bits:
+    values: [4, 8]
+  a_bits:
+    values: [4, 8]
+command:
+ - python
+ - cs.py
+ - ${args_no_boolean_flags}

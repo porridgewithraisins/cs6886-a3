@@ -12,3 +12,6 @@ wheels/
 *.pth
 data/
 *log.csv
+wandb/
+
+*.un~
